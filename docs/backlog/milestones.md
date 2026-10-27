@@ -72,7 +72,7 @@ hosting, GitHub Actions, alternatieve CI/CD of volledige auth-/boekhoudimplement
 ADR-0001 staat Proposed. Concrete tools/versies, lokale configuratie, database-
 levenscyclus en checks moeten worden gekozen. Authcontract en tenantisolatie worden
 uitgewerkt voor M2; keuzes met invloed op M1 worden vóór M1-B besloten. Productnaam, domein en remote zijn vastgelegd in [governance](../governance.md).
-De licentiekeuze blijft open; publieke publicatie is
+De licentie is AGPL-3.0-only; publieke publicatie is
 geen onderdeel van M1. Er bestaan nog geen uitvoerbare checks of applicatiecode.
 
 ## M2 — Organisaties en toegang

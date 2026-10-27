@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- AGPL-3.0-only toegevoegd met officiële LICENSE en afspraken voor bijdragen.
+  Domein gecorrigeerd naar openbookie.nl; gratis eigen SaaS als productbeleid
+  vastgelegd, zonder beperking op betaalde hosting door derden onder de AGPL.
+
 - Productnaam OpenBookie, domein openbookie.nl en repository Direct365-NL/OpenBoekie
   vastgelegd; verouderde uitspraken over een ontbrekende remote gecorrigeerd.
   GitHub-checklist uitgewerkt, inclusief branchbescherming voor één maintainer.

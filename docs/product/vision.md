@@ -5,6 +5,14 @@ en rechtsvormen. De eerste oplevering richt zich op registreren, controleren en
 rapporteren. Elke organisatie krijgt een logisch afgeschermde omgeving (tenant)
 met administraties, leden en rechten; dit betekent geen afzonderlijke deployment.
 
+## Beschikbaarheid en licentie
+
+De eigen SaaS wordt gratis aangeboden op **openbookie.nl** zodra deze gereed is.
+Dit is productbeleid, geen verklaring dat de dienst al beschikbaar is of een SLA.
+De eigen projectdocumentatie en code vallen onder `AGPL-3.0-only`; zie
+[LICENSE](../../LICENSE) en [de toelichting](../../README.md#open-source-en-open-besluiten).
+De licentie staat derden toe betaalde diensten aan te bieden met naleving van de AGPL.
+
 ## Doelgroep en toepasbaarheid
 
 Het product is niet beperkt tot een specifieke sector, organisatie of rechtsvorm.

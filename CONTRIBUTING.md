@@ -24,3 +24,11 @@ release gaat door de omgevingen. Geen force-push op gedeelde main of releasetags
 Zie [GitHub-inrichting](docs/engineering/github.md) voor ophalen en filteren van werk.
 Er zijn momenteel geen build- of testcommando's; introduceer deze met de toolchain
 en werk de README bij voordat de eerste implementatie-PR gereed wordt gemeld.
+
+## Licentie van bijdragen
+
+Bijdragen aan dit project worden aangeleverd onder `AGPL-3.0-only`, zoals vastgelegd
+in [LICENSE](LICENSE). Lever alleen materiaal aan waarvoor je die rechten kunt
+verlenen. Je behoudt je auteursrecht; deze afspraak draagt geen auteursrecht over.
+Neem materiaal van derden uitsluitend op met compatibele licentie en behoud van
+vereiste vermeldingen. Controleer dependencylicenties vóór opname.

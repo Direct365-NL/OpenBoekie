@@ -1,6 +1,6 @@
 # OpenBookie
 
-OpenBookie is een beoogde open source SaaS-boekhoudapplicatie in TypeScript voor Nederland,
+OpenBookie is een open source SaaS-boekhoudproject in TypeScript voor Nederland,
 voor organisaties met uiteenlopende activiteiten en rechtsvormen.
 Deze repository bevat uitsluitend projectdocumentatie, werkafspraken en templates.
 Er is nog geen applicatie, package manifest, database, infrastructuur of uitvoerbare test.
@@ -47,10 +47,18 @@ via ADRs gekozen. Er zijn dus nog geen installatie- of testcommando's.
 
 ## Open source en open besluiten
 
-Open source is het doel. De licentie is nog niet gekozen; zonder LICENSE worden
-nog geen open-source-gebruiksrechten verleend. Kies en voeg vóór publieke publicatie
-een OSI-goedgekeurde licentie toe. Zie [governance](docs/governance.md) voor deze
-en overige beslissingen. Er is nog geen garantie op fiscale geschiktheid.
+Dit project, inclusief de eigen documentatie en toekomstige code, valt onder de
+[GNU Affero General Public License versie 3](LICENSE), uitsluitend die versie
+(SPDX: `AGPL-3.0-only`), tenzij een bestand uitdrukkelijk anders vermeldt.
+Vermeldingen en licenties van derden blijven van toepassing op hun materiaal.
+
+De eigen SaaS wordt volgens het productbeleid gratis aangeboden op **openbookie.nl**
+zodra de dienst gereed is. Er is nu nog geen gehoste applicatie. Gratis aanbieden
+is geen extra licentievoorwaarde: derden mogen betaalde hosting aanbieden als zij
+de AGPL naleven. Bij een aangepaste versie met netwerkgebruik moeten zij de
+bijbehorende broncode aan die gebruikers aanbieden volgens artikel 13.
+Zie [governance](docs/governance.md) voor overige beslissingen.
+Er is nog geen garantie op fiscale geschiktheid.
 
 Inspiratie en officiële referenties staan in [bronnen](docs/product/references.md).
 

@@ -5,7 +5,9 @@ Productnaam: **OpenBookie**. Geregistreerd domein: **openbookie.nl**.
 Gebruik de exacte repositoryspelling `OpenBoekie` in Git-URL's.
 
 Op 27 oktober 2026 lokaal gecontroleerd: branch `main`, remote `origin` is
-`https://github.com/Direct365-NL/OpenBoekie.git`, nog geen eerste commit.
+`https://github.com/Direct365-NL/OpenBoekie.git`. De eerste commit is inmiddels
+lokaal bevestigd. Volgens de opdrachtgever zijn de labels aangemaakt;
+branchbescherming en merge-instellingen zijn nog in uitvoering.
 De repository is volgens de opdrachtgever aangemaakt. Zichtbaarheid, abonnement,
 rechten, labels en beveiligingsinstellingen zijn niet gecontroleerd. Onderstaande
 checklist is uit te voeren werk, geen verklaring dat instellingen al actief zijn.
@@ -15,7 +17,7 @@ checklist is uit te voeren werk, geen verklaring dat instellingen al actief zijn
 - Controleer in de organisatie `Direct365-NL` dat `Carlovdv` de repository kan
   beheren; geef latere contributors alleen de benodigde rechten.
 - Controleer de zichtbaarheid. Volgens [governance](../governance.md) blijft publieke
-  publicatie geblokkeerd tot de licentie en het private meldkanaal zijn geregeld.
+  publicatie geblokkeerd tot de licentie is meegepubliceerd en het private meldkanaal is geregeld.
 - Vul bij **About** als beschrijving in: “OpenBookie — Nederlandse
   SaaS-boekhoudapplicatie; momenteel documentatie en projectstructuur.” Voeg
   `https://openbookie.nl` als website toe zodra daar een bruikbare site staat.
@@ -75,7 +77,8 @@ en [PR-reviews](https://docs.github.com/en/pull-requests/collaborating-with-pull
 
 ## 4. Security en publicatie
 
-- Kies de projectlicentie en voeg een echte `LICENSE` toe vóór publieke publicatie.
+- De licentie is `AGPL-3.0-only`; publiceer de toegevoegde [LICENSE](../../LICENSE)
+  en de licentievermelding in de README samen met het project.
 - Controleer 2FA en herstelmogelijkheden voor beheerders; stel organisatiebeleid
   pas in nadat bestaande leden hun toegang kunnen behouden.
 - Regel een bereikbaar privaat meldkanaal en vul [SECURITY.md](../../SECURITY.md)

@@ -22,7 +22,7 @@ vereiste inhoudelijke review voor Ready-goedkeuring of fiscale vrijgave.
 | Besluit | Moment | Status |
 | --- | --- | --- |
 | Productnaam, domein en GitHub-locatie | Vastgelegd 27 oktober 2026 | OpenBookie; openbookie.nl; Direct365-NL/OpenBoekie |
-| OSI-licentie (bijv. AGPL-3.0-only of Apache-2.0) | Vóór publieke publicatie | Open; gevolgen voor SaaS en bijdragen afwegen |
+| Projectlicentie | Vastgelegd 27 oktober 2026 | AGPL-3.0-only; zie LICENSE en onderstaand besluit |
 | Frameworks, Node/runtime, package manager, database | Eerste implementatie | Open; ADR met ondersteunde versies |
 | Hosting, regio, verwerkers, secretsbeheer | Vóór Test uitrol | Open |
 | Fiscale scope en inhoudelijk reviewer | Vóór fiscale implementatie | Open; voorgestelde scope in product/vision.md; voorlopige uitwerking door Carlovdv, reviewer nog te betrekken |
@@ -155,3 +155,32 @@ op de bestaande branch `main` voorbereid, zonder een implementatie-item te claim
 Uitvoerder: Codex, in opdracht van Carlovdv. Status: lokaal uitgewerkt; nog niet
 gecommit, gereviewd of geïntegreerd. UC-0013 en de overige backlogstatussen blijven
 ongewijzigd. Zie het [documentatiebewijs](engineering/project-identity-verification.md).
+
+## Licentie en gecorrigeerd domein — 27 oktober 2026
+
+Op basis van de wens van Carlovdv om aangepaste gesloten SaaS-versies uit te sluiten
+wordt de voorgestelde `AGPL-3.0-only` toegepast. De ongewijzigde officiële tekst staat
+in [LICENSE](../LICENSE); de README beperkt de keuze expliciet tot versie 3.
+Dit geldt voor eigen documentatie en toekomstige code, tenzij anders vermeld.
+De FSF-vermelding in LICENSE betreft de licentietekst, niet het auteursrecht op
+OpenBookie. Er wordt geen rechtspersoon als auteursrechthebbende verondersteld.
+
+De eigen SaaS wordt gratis aangeboden zodra die gereed is. De licentie verbiedt
+betaalde hosting door derden niet; bij aangepaste versies geldt de broncodeplicht
+voor netwerkgebruikers van artikel 13. Er is geen verplichting wijzigingen als PR
+bij dit project in te dienen. Broncodeplicht betreft software, geen klantboekhouding.
+Bron: [officiële AGPL-tekst](https://www.gnu.org/licenses/agpl-3.0.html).
+
+Het juiste aangeschafte domein is **openbookie.nl**, door de opdrachtgever opnieuw
+bevestigd. Deze bevestiging vervangt de tussentijdse domeincorrectie.
+De productnaam blijft OpenBookie en de repository blijft Direct365-NL/OpenBoekie.
+De oorspronkelijke domeinvermeldingen in historische verslagen zijn daarmee correct.
+
+De opdrachtgever meldt dat labels zijn aangemaakt en de eerste commit bestaat;
+branchbescherming en merge-instellingen zijn nog in uitvoering. Dit is geen
+onafhankelijke controle van GitHub-instellingen.
+
+Uitvoering: Codex, branch `docs/licentie-en-domein`. Dit is een rechtstreeks
+gevraagde documentatie-/licentiewijziging buiten de Ready-backlogprocedure;
+UC-0013 blijft Draft. Status: lokaal uitgewerkt, nog niet gecommit of geïntegreerd.
+Controlebewijs: [licentie- en domeincontrole](engineering/license-verification.md).
